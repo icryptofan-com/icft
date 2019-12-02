@@ -1,12 +1,3 @@
-/*
-  Theme Name: Avilon
-  Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #fff;
   color: #666666;
@@ -550,13 +541,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-img {
-  height: 510px;
-  overflow: hidden;
 }
 
 #about .about-img img {
-  margin-left: -15px;
-  max-width: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 @media (max-width: 768px) {
@@ -1105,6 +1094,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
+  position: relative;
 }
 
 #contact .contact-about h3 {
@@ -1245,4 +1235,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-links a:hover {
   color: #1dc8cd;
+}
+
+/* Andrey */
+.applications-icons{
+  font-size: 52px; 
+  line-height: 52px;
+}
+
+.pictures-tiles{
+  max-width: 400px;
+  margin: 15px 0;
+}
+
+.contact-float-text{
+  position: absolute;
+  font-size: 30px;
+  line-height: 30px;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
 }
