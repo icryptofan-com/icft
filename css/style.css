@@ -1256,3 +1256,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.api-list-title{
+  width: 300px;
+  display: inline-block;
+}

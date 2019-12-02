@@ -64,7 +64,7 @@ jQuery(document).ready(function($) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       if (target.length) {
-        var top_space = 0;
+        var top_space = 72;
 
         $('html, body').animate({
           scrollTop: target.offset().top - top_space
