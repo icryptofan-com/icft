@@ -1238,6 +1238,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* Andrey */
+#applications{
+  padding: 60px 0;
+}
+
 .applications-icons{
   font-size: 52px; 
   line-height: 52px;
@@ -1249,12 +1253,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .contact-float-text{
-  position: absolute;
+  /* position: absolute; */
+  width: 100%;
   font-size: 30px;
   line-height: 30px;
-  top: -15px;
+  margin-top: 20px;
+  text-align: center;
+  /* top: 10px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); */
 }
 
 .api-list-title{
