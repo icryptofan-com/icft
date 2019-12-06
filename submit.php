@@ -7,7 +7,7 @@ $subj = htmlspecialchars($_POST["subject"]);
 $message = htmlspecialchars($_POST["message"]);
  
 /* Ваш адрес и тема сообщения */
-$address = "selo.moloko@gmail.com";
+$address = "info@icft.eu";
 $sub = "Сообщение с ICFt.eu";
  
 /* Формат письма */
